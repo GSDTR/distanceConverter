@@ -23,7 +23,7 @@ jobs:
           distribution: 'corretto'
           cache: maven
       - name: test_ubuntu
-        run: mvn test -f "./distanceConverter"
+        run: mvn test -f "./"
 
   test_windows:
     runs-on: windows-latest
@@ -36,7 +36,7 @@ jobs:
           distribution: 'corretto'
           cache: maven
       - name: test_windows
-        run: mvn test -f "./distanceConverter"
+        run: mvn test -f "./"
 
   test_macos:
     runs-on: macos-latest
@@ -49,4 +49,4 @@ jobs:
           distribution: 'corretto'
           cache: maven
       - name: test_macos
-        run: mvn test -f "./distanceConverter"
+        run: mvn test -f "./"
