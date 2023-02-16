@@ -20,6 +20,9 @@ public class Main {
         if (args[0].equals("-mtov")) {
             System.out.printf("Miles to versts = %.3f", milToVer(Double.parseDouble(args[1])));
         }
+        if (args[0].equals("-vtom")) {
+            System.out.printf("Versts to miles = %.3f", verToMil(Double.parseDouble(args[1])));
+        }
     }
     double kilToMil(double dist) {
         return dist/1.609;
@@ -35,5 +38,8 @@ public class Main {
     }
     double milToVer(double dist) {
         return dist*1.509;
+    }
+    double verToMil(double dist) {
+        return dist/1.509;
     }
 }
