@@ -14,6 +14,9 @@ public class Main {
         if (args[0].equals("-vtok")) {
             System.out.printf("Versts to kilometers = %.3f", verToKil(Double.parseDouble(args[1])));
         }
+        if (args[0].equals("-ktov")) {
+            System.out.printf("Kilometers to versts = %.3f", kilToVer(Double.parseDouble(args[1])));
+        }
     }
     double kilToMil(double dist) {
         return dist/1.609;
@@ -23,5 +26,8 @@ public class Main {
     }
     double verToKil(double dist) {
         return dist*1.067;
+    }
+    double kilToVer(double dist) {
+        return dist/1.067;
     }
 }
