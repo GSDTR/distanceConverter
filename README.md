@@ -21,3 +21,5 @@ Run application
 ![run app 2 fc](pictures/run_vtok.png)
 
 ![run app 3 ck](pictures/run_mtov.png)
+
+Release
