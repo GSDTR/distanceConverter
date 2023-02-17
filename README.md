@@ -1,3 +1,5 @@
+![Build Status](https://github.com/GSDTR/distanceConverter/actions/workflows/main.yml/badge.svg?branch=develop) (dev)
+![Build Status](https://github.com/GSDTR/distanceConverter/actions/workflows/main.yml/badge.svg?branch=main) (main)
 # distanceConverter
 Converter units of measurement of length
 ## How to use
